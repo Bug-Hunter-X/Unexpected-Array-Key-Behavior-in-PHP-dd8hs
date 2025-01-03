@@ -1,0 +1,3 @@
+# PHP Array Key Bug
+
+This repository demonstrates a subtle bug related to array key handling in PHP. The `incrementArrayValue` function aims to increment the value associated with a given key in an array. However, it may not work as expected with certain inputs or in combination with other parts of the code, particularly if keys are not properly handled (e.g., string keys treated as integers, type juggling issues) resulting in incorrect array updates or unexpected outcomes.
